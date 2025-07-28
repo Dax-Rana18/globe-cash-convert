@@ -24,6 +24,10 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				'converter-card': 'hsl(var(--converter-card))',
+				'converter-input': 'hsl(var(--converter-input))',
+				'swap-button': 'hsl(var(--swap-button))',
+				'swap-button-hover': 'hsl(var(--swap-button-hover))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
@@ -62,6 +66,9 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'converter-gradient': 'var(--converter-bg)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
